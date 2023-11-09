@@ -11,7 +11,7 @@ function Article({ imgUrl, date, title}) {
           <p>{date}</p>
           <h3>{title}</h3>
         </div>
-        <p><a className='subtext__color'>Read Full Article</a></p>
+        <p><a>Read Full Article</a></p>
       </div>
     </div>
   )

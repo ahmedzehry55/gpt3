@@ -16,7 +16,6 @@ function App() {
       <Cta/>
       <Blog/>
       <Footer/>
-      
     </div>
   );
 }
