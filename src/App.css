@@ -27,6 +27,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .subtext__color{
+    color: var(--color-subtext)
+  }
   .section__padding {
     padding: 4rem 6rem;
   }
@@ -34,3 +37,14 @@
   .section__margin {
     margin: 4rem 6rem;
   }
+  @media screen and (max-width: 900px) {
+    .section__padding {
+        padding: 2rem;
+        
+    }
+    .section__margin {
+      margin: 0;
+  }
+}
+
+

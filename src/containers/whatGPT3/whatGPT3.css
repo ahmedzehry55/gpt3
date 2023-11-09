@@ -70,7 +70,6 @@
     flex: 1;
     margin: 1rem;
     min-width: 210px;
-    display: unset;
     flex-direction: column;
 }
 
@@ -105,6 +104,14 @@
     .gpt3__whatgpt3-heading h1 {
         font-size: 28px;
         line-height: 40px;
+        max-width: 100%;
+    }
+    .gpt3__whatgpt3-container .gpt3__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+    .section__margin {
+        margin: 0;
     }
 }
 
